@@ -1,6 +1,11 @@
 
 
 import Vue from 'vue/dist/vue.esm';
+import vuex from 'vuex';
+
+Vue.use(vuex);
+
+
 import {store} from './store';
 import Main from './main.vue';
 
